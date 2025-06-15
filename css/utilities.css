@@ -12,8 +12,9 @@
 }
 
 h1::selection,
-h2::selection {
-  color: #111;
+h2::selection,
+p::selection {
+  color: var(--text-color-two);
   background: var(--primary-color);
 }
 
